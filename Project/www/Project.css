@@ -1,0 +1,64 @@
+html {
+	background-color: #0d3141;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	font-family: arial;
+	color: #fffff;
+}
+
+hr {
+	color: #f21a05;
+	border-style: solid;
+	border-width: 1px;
+}
+
+table, td {
+	color: #f21a05;
+	border-style: solid;
+	border-width: 1px;
+}
+
+a:link {
+	font-family: arial;
+	color: #017f8d;
+}
+
+button {
+	border: none;
+	font-family: arial;
+	background-color: #017f8d;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #f2c230;
+}
+a:hover {
+	color: #f2c230;
+}
+
+button.cancel {
+	border: dashed;
+	background-color: rgba(0,0,0,0);
+	font-family: arial;
+	color: white;
+	padding: 12px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+button.cancel:hover{
+	color: #f2c230;
+}
