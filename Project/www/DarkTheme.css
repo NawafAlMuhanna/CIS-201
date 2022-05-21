@@ -1,23 +1,19 @@
 body {
-	background-color: #0d3141;
+	background-color: #313b4d;
 }
 
-ul.header {
+.navbar-expand-sm {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #017f8d;
+	background-color: #2F4562;
 }
 
-li {
-	float: left;
-}
-
-li a.header {
+.nav-item {
     display: inline-block;
 	border: none;
-	padding: 14px 16px;
+	padding: 5px 16px;
 	font-family: arial;
 	color: white;
 	text-decoration: none;
@@ -25,8 +21,8 @@ li a.header {
 	top: 0;
 }
 
-li a.header:hover {
-	background-color: #f2c230;
+.nav-item:hover {
+	background-color: #99ccff;
 }
 
 p, h1, h2, h3, h4, h5, h6, li, th, tr, label {
@@ -35,7 +31,7 @@ p, h1, h2, h3, h4, h5, h6, li, th, tr, label {
 }
 
 hr {
-	color: #f21a05;
+	color: #5294e2;
 	border-style: solid;
 	border-width: 1px;
 	margin: 0;
@@ -43,20 +39,20 @@ hr {
 }
 
 table, td {
-	color: #f21a05;
+	color: #5294e2;
 	border-style: solid;
 	border-width: 1px;
 }
 
 a:link {
 	font-family: arial;
-	color: #017f8d;
+	color: #2F4562;
 }
 
 button {
 	border: none;
 	font-family: arial;
-	background-color: #017f8d;
+	background-color: #2F4562;
 	color: white;
 	padding: 15px 32px;
 	text-align: center;
@@ -68,10 +64,10 @@ button {
 }
 
 button:hover{
-	background-color: #f2c230;
+	background-color: #99ccff;
 }
 a:hover {
-	color: #f2c230;
+	color: #99ccff;
 }
 
 button.cancel {
@@ -89,7 +85,7 @@ button.cancel {
 }
 
 button.cancel:hover{
-	color: #f2c230;
+	color: #99ccff;
 }
 
 div.center {
