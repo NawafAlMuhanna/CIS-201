@@ -1,7 +1,7 @@
-const btn = document.querySelector(".ButtonToggle");
+const button = document.querySelector(".Button-Toggle");
 
 const theme = document.querySelector("#ThemeLink");
-      btn.addEventListener("click", function() {
+      button.addEventListener("click", function() {
         // Swap out the URL for the different stylesheets
         if (theme.getAttribute("href") == "LightTheme.css") {
           theme.href = "DarkTheme.css";
