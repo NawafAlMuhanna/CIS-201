@@ -25,7 +25,7 @@
           <a class="nav-link" href="Date.html">Edit Event</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link" href="#View">View Event</a>
+          <a class="nav-link" href="Date.html">View Event</a>
         </li>
 		<li class="nav-item">
           <a class="nav-link" href="AboutMe.html">About Me</a>
@@ -38,8 +38,58 @@
 	
 	<hr/>
 	<br/>
+	<link rel="stylesheet" href="Calendar.css"/>
+	<div class= "row">
+	<div class="column">
+		<div id="newEventModal">
+			<h2>New Event</h2>
+			<p>Event Title:</p><input id="eventTitleInput" placeholder="Event Title Here..." />
+			<p>Description:</p> 
+			<textarea id="eventDescription" name="description" placeholder="Insert description..."></textarea>
+			<br/>
+			
+			<button id="saveButton">Save</button>
+			<button class="cancel" id="cancelButton">Cancel</button>
+		</div>
+		
+		<div id="editEventModal">
+			<h2>Event:</h2>
+			<p>Event Title:</p><input id="editTitleInput" placeholder="Event Title Here..."/>
+			<p>Description:</p> 
+			<textarea id="editDescription" name="description" placeholder="Insert description..."></textarea>
+			<br/>
+			
+			<button id="saveEditButton">Save</button>
+			<button class="cancel" id="cancelButton">Cancel</button>
+			<button id="deleteButton">Delete</button>
+		</div>
+		
+	</div>
 	
+	<div class="column">
+	<div id="container">
+		<div id="header">
+			<div id ="monthDisplay"></div>
+			<div>
+				<button id="backButton">Back</button>
+				<button id="nextButton">Next</button>
+			</div>
+		</div>
+		<div id="weekdays">
+			<div>Sunday</div>
+			<div>Monday</div>
+			<div>Tuesday</div>
+			<div>Wednesday</div>
+			<div>Thursday</div>
+			<div>Friday</div>
+			<div>Saturday</div>
+		</div>
+		
+		<div id="calendar"></div>
+	</div>
+	</div>
 	
+<script src="Calendar.js"></script>
 </body>
 
 <script src="theme-change.js"></script>

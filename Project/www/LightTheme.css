@@ -98,6 +98,10 @@ button.cancel:hover{
 	color: #f2c230;
 }
 
+#deleteButton:hover {
+	background-color: #f2c230;
+}
+
 div.center {
 	text-align: center;
 }

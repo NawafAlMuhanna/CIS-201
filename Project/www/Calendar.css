@@ -1,0 +1,104 @@
+#header {
+  padding: 10px;
+  color: #d36c6c;
+  font-size: 26px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+#header button {
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color:#92a1d1;
+}
+#container {
+  width: 530px;
+}
+#weekdays {
+  font-size: 90%;
+  width: 100%;
+  display: flex;
+  color: #247BA0;
+}
+#weekdays div {
+  width: 100px;
+  padding: 10px;
+}
+#calendar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.day {
+  width: 65px;
+  padding: 7.5px;
+  height: 45px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 5px;
+  box-shadow: 0px 0px 3px #CBD4C2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.day:hover {
+  background-color: #e8faed;
+}
+
+.day + #currentDay {
+  background-color:#e8f4fa;
+}
+.event {
+  font-size: 10px;
+  padding: 3px;
+  background-color: #58bae4;
+  color: white;
+  border-radius: 5px;
+  max-height: 55px;
+  overflow: hidden;
+}
+.padding {
+  cursor: default !important;
+  background-color: #FFFCFF !important;
+  box-shadow: none !important;
+}
+#newEventModal, #editEventModal {
+  display: none;
+  z-index: 20;
+  padding: 25px;
+}
+#eventTitleInput, #editTitleInput {
+  padding: 5px;
+  width: 90%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 3px gray;
+}
+
+#eventDescription, #editDescription {
+  padding: 5px;
+  width: 90%;
+  height: 100px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 3px gray;
+}
+#eventTitleInput.error {
+  border: 2px solid red;
+}
+#deleteButton {
+  background-color: #d36c6c;
+}
+
+#eventText {
+  font-size: 14px;
+}
