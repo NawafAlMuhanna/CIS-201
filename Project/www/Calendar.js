@@ -61,6 +61,10 @@ function load() {
 		  
 		  const eventForDay = events.find(e => e.date === dayString);
 		  
+		  if (i - paddingDays === day && nav === 0) {
+			daySquare.id = 'currentDay';
+		  }
+		  
 		  if (eventForDay) {
 			const eventDiv = document.createElement('div');
 			eventDiv.classList.add('event');
